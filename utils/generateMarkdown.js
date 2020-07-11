@@ -17,28 +17,39 @@ function generateMarkdown(data) {
   return `
 [![Contributors](https://img.shields.io/github/contributors/${username}/${project})](https://github.com/${username}/${project}/graphs/contributors)
 ${licenseBadges[license]}
+
 # ${title}
-# Description
+
+## Description
 ${description}
-# Table of Contents
+
+### Table of Contents
 * [Installation](#Installation)
 * [Usage](#Usage)
 * [License](#License)
 * [Contributing](#Contributing)
 * [Tests](#Tests)
 * [Questions](#Questions)
-# Installation
-${installation}
-# Usage
-${usage}
-# License
-${license} License selected. See the badge above for further details.
-# Contributing
-${contributing}
-# Tests
-${tests}
-# Questions
-[![Repo Owner Image](https://avatars.githubusercontent.com/${username}?s=100)](mailto:${email})
-Please send any questions you may have to the repo owner.
 
-module.exports = generateMarkdown;
+## Installation
+${installation}
+
+## Usage
+${usage}
+
+## License
+${license} License selected. Click the badge above for further details.
+
+## Contributing
+${contributing}
+
+## Tests
+${tests}
+
+## Questions
+[![Repo Owner Image](https://avatars.githubusercontent.com/${username}?s=100)](mailto:${email}\n)
+Please email questions any questions you may have directly to the repo owner.
+`;
+}
+
+module.exports = generateMarkdown();
