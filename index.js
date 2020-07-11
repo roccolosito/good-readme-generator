@@ -56,7 +56,7 @@ const questions = [
                 type: "input",
                 name: "email",
                 message: "Please provide your GitHub email address",
-                default: "Blank."
+                default: "Blank"
             },
             
         ];
