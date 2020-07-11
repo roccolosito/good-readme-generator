@@ -9,6 +9,11 @@ const questions = [
         name: "username",
     },
     {
+        message: "Please enter your project repository name.",
+        type: "input",
+        name: "project",
+    },
+    {
         message: "What is the name of the project?",
         type: "input",
         name: "title",
