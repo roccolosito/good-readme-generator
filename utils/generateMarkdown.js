@@ -18,7 +18,8 @@ function generateMarkdown(data) {
 [![Contributors](https://img.shields.io/github/contributors/${username}/${project})](https://github.com/${username}/${project}/graphs/contributors)
 ${licenseBadges[license]}
 
-# ${title}
+## Project Title 
+${title}
 
 ## Description
 ${description}
@@ -47,9 +48,9 @@ ${contributing}
 ${tests}
 
 ## Questions
-[![Repo Owner Image](https://avatars.githubusercontent.com/${username}?s=100)](mailto:${email}\n)
+[![Repo Owner Image](https://avatars.githubusercontent.com/${username}?s=100)](mailto:${email}"\n")
 Please email questions any questions you may have directly to the repo owner.
 `;
 }
 
-module.exports = generateMarkdown();
+module.exports = {generateMarkdown: generateMarkdown};
