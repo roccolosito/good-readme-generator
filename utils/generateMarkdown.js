@@ -5,7 +5,7 @@ const licenseBadges = {
 
 function generateMarkdown(data) {
   let username = data.username;
-  let project = data.title;
+  let title = data.title;
   let description = data.description;
   let installation = data.installation;
   let usage = data.usage;
