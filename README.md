@@ -8,6 +8,10 @@ README Generator
 ## Description
 A simple command-line application that dynamically generates a README.md from a user's input.
 
+## Visuals
+
+![TutorialGif](./assets/tutorial.gif)
+
 ### Table of Contents
 * [Installation](#Installation)
 * [Usage](#Usage)
@@ -17,10 +21,10 @@ A simple command-line application that dynamically generates a README.md from a 
 * [Questions](#Questions)
 
 ## Installation
-Run 'npm install' in the command line to install.
+Run 'npm install' to install.
 
 ## Usage
-Run 'node index.js' in the command line to start creating a README.
+Run 'node index.js' to start creating a README.
 
 ## License
 MIT License selected. Click the badge above for further details.
